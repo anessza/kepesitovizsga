@@ -1,5 +1,6 @@
 package hu.nive.ujratervezes.kepesitovizsga.addigits;
 
+import addigits.AddDigits;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
