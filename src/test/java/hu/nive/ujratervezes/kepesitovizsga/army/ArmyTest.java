@@ -1,24 +1,24 @@
-//package hu.nive.ujratervezes.kepesitovizsga.army;
-//
-//import org.junit.jupiter.api.BeforeEach;
-//import org.junit.jupiter.api.Test;
-//
-//import static org.junit.jupiter.api.Assertions.assertEquals;
-//
-//class ArmyTest {
-//
-//    Army army;
-//
-//    @BeforeEach
-//    void init() {
-//        army = new Army();
-//    }
-//
-//    @Test
-//    void testGetArmySizeEmpty() {
-//        assertEquals(0, army.getArmySize());
-//    }
-//
+package hu.nive.ujratervezes.kepesitovizsga.army;
+
+import army.Army;
+import org.junit.jupiter.api.BeforeEach;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class ArmyTest {
+
+    Army army;
+
+    @BeforeEach
+    void init() {
+        army = new Army();
+    }
+
+    @Test
+    void testGetArmySizeEmpty() {
+        assertEquals(0, army.getArmySize());
+    }
+
 //    @Test
 //    void testAddUnit() {
 //        army.addUnit(new HeavyCavalry());
